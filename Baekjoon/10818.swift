@@ -1,3 +1,5 @@
+//최소, 최대
+
 let input: [Int] = readLine()!.split(separator: " ").map{ Int(String($0))!}
 let nums: [Int] = readLine()!.split(separator: " ").map{ Int(String($0))!}
 

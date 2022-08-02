@@ -1,3 +1,5 @@
+//곱셈
+
 var first: [Character] = readLine()!.map{Character(String($0))}
 var second: [Character] = readLine()!.map{Character(String($0))}
 

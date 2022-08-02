@@ -1,3 +1,5 @@
+//알람 시계
+
 let input: [Int] = readLine()!.split(separator: " ").map{ Int(String($0))!}
 
 var h: Int = input[0]

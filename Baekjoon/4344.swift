@@ -1,3 +1,5 @@
+//평균은 넘겠지
+
 import Foundation
 let caseNum: [Int] = readLine()!.split(separator: " ").map{Int(String($0))!}
 let count: Int = caseNum[0]

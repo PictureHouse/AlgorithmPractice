@@ -1,3 +1,5 @@
+//사칙연산
+
 let input: [Int] = readLine()!.split(separator: " ").map{ Int(String($0))! }
 
 func add(a: Int, b: Int) -> Int { return a + b }
