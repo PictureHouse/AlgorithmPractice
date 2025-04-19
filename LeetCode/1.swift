@@ -1,14 +1,15 @@
-//Two Sum
+// 1.Two Sum
 
 class Solution {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+        let count = nums.count
         var result: [Int] = []
-        loop1: for i in 0...nums.count-2 {
-            loop2: for j in 1...nums.count-1 {
-                if i != j && nums[i] + nums[j] == target {
-                    result.append(i)
-                    result.append(j)
-                    break loop1
+
+        for i in 0..<count {
+            for j in i+1..<count {
+                if nums[i] + nums[j] == target {
+                    result = [i, j]
+                    break
                 }
             }
         }
